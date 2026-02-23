@@ -15,7 +15,7 @@ Observation:
 - master PID: 2944
 - worker PID: 2945
 
-![Process nginx](images/Screenshot-1.png)
+![Process nginx](Screenshot-1.png)
 
 ---
 
