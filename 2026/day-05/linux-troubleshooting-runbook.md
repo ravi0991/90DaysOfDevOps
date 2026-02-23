@@ -2,7 +2,6 @@
 
 ## Target Service
 sshd (secure shell daemon)  
-also checked sshd for logs
 
 ---
 
@@ -31,11 +30,10 @@ ls -l /tmp/runbook-demo
 
 # Service Status
 
-systemctl status nginx  
+systemctl status sshd  
 
-→ nginx active (running)  
-→ main PID 2944  
-→ master + worker process  
+→ sshd active (running)  
+→ main PID 850 
 
 Service healthy.
 
@@ -45,10 +43,9 @@ Service healthy.
 
 # CPU / Memory
 
-ps -o pid,pcpu,pmem,comm -p 2944  
-ps -o pid,pcpu,pmem,comm -p 2945  
+ps -o pid,pcpu,pmem,comm -p 850 
 
-→ nginx CPU 0%  
+→ sshd CPU 0%  
 → memory very low  
 
 free -h  
@@ -62,7 +59,7 @@ vmstat
 → CPU idle ~98%  
 → system not loaded  
 
-![cpu memory](images/Screenshot-1.png)
+![cpu memory](Screenshot-1.png)
 
 ---
 
@@ -91,12 +88,11 @@ iostat
 
 ss -tulnp  
 
-→ nginx listening on :80  
 → sshd on :22  
 
 netstat -tulnp  
 
-→ confirms nginx PID 2944 on port 80  
+→ confirms sshd PID 850 on port 22  
 
 curl -I www.google.com  
 
@@ -125,10 +121,10 @@ No errors seen.
 
 # Quick Findings
 
-- nginx running correctly  
+- sshd service running correctly  
 - CPU & memory normal  
 - disk & IO healthy  
-- port 80 listening  
+- port 22 listening  
 - network working  
 - ssh logs normal  
 No issue detected.
@@ -137,17 +133,17 @@ No issue detected.
 
 # If This Worsens
 
-1. restart nginx  
-   systemctl restart nginx  
+1. restart sshd  
+   systemctl restart sshd 
 
 2. check config  
-   nginx -t  
+   sshd -t  
 
 3. check nginx logs  
-   journalctl -u nginx  
+   journalctl -u ssh  
 
 4. check port conflict  
-   ss -tulnp | grep 80  
+   ss -tulnp | grep 22  
 
 5. capture process trace  
-   strace -p 2944  
+   strace -p 850  
