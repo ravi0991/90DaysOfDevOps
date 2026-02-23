@@ -61,7 +61,7 @@ Observation:
 
 # Service Checks
 
-## 4. Inspect nginx service
+## 4. Inspect nginx service and List running services
 Command:
 systemctl status nginx
 
@@ -70,23 +70,20 @@ Observation:
 - main PID: 2944
 - service started successfully
 
-![nginx status](Screenshot-3.png)
-
----
-
-## 5. List running services
 Command:
 systemctl list-units --type=service --state=running
 
 Observation:
 - sshd, crond, nginx, rsyslog running
 - confirms system services active
+  
+![nginx status](Screenshot-3.png)
 
 ---
 
 # Log Checks
 
-## 6. Check nginx logs
+## 5. Check nginx logs
 Command:
 journalctl -u nginx
 
