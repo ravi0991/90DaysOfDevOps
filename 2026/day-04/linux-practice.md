@@ -52,7 +52,7 @@ top
 
 Observation:
 - system load very low
-- nginx and java visible
+- top and java visible
 - systemd PID 1 running
 
 ![top output](Screenshot-2.png)
@@ -107,8 +107,10 @@ Observation:
 # Mini Troubleshooting Flow (nginx)
 
 1. Check service  
-   systemctl status nginx  
+   systemctl status nginx
+   
    systemctl status sshd
+   
    systemctl status crond
 
 ![services status](Screenshot-5.png)
