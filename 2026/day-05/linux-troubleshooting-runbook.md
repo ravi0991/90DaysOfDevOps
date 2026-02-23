@@ -26,6 +26,8 @@ ls -l /tmp/runbook-demo
 → file created successfully  
 → filesystem writable  
 
+![env check](Screenshot-1a.png)
+
 ---
 
 # Service Status
@@ -36,8 +38,6 @@ systemctl status sshd
 → main PID 850 
 
 Service healthy.
-
-![env check](Screenshot-1.png)
 
 ---
 
@@ -59,7 +59,7 @@ vmstat
 → CPU idle ~98%  
 → system not loaded  
 
-![cpu memory](Screenshot-1.png)
+![cpu memory](Screenshot-1b.png)
 
 ---
 
