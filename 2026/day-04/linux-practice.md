@@ -15,7 +15,7 @@ Observation:
 - master PID: 2944
 - worker PID: 2945
 
-![Process nginx](../../../../mnt/data/Screenshot 1.png)
+![Process nginx](images/Screenshot-1.png)
 
 ---
 
@@ -43,7 +43,7 @@ Observation:
 - nginx and java visible
 - systemd PID 1 running
 
-![top output](../../../../mnt/data/Screenshot 2.png)
+![top output](images/Screenshot-2.png)
 
 ---
 
@@ -58,7 +58,7 @@ Observation:
 - main PID: 2944
 - service started successfully
 
-![nginx status](../../../../mnt/data/Screenshot 3.png)
+![nginx status](images/Screenshot-3.png)
 
 ---
 
@@ -82,7 +82,7 @@ Observation:
 - nginx config test successful
 - service started by systemd
 
-![nginx logs](../../../../mnt/data/Screenshot 4.png)
+![nginx logs](images/Screenshot-4.png)
 
 ---
 
@@ -95,7 +95,7 @@ Observation:
 - root login from 192.168.56.1
 - session open/close events recorded
 
-![ssh logs](../../../../mnt/data/Screenshot 5.png)
+![ssh logs](images/Screenshot-5.png)
 
 ---
 
