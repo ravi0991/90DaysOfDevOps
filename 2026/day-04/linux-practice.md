@@ -15,6 +15,18 @@ Observation:
 - master PID: 2944
 - worker PID: 2945
 
+Command:
+ps -ef | grep sshd
+
+Observation:
+- ssh daemon running
+- multiple ssh sessions visible
+- sshd parent PID: 850
+
+Also verified using:
+pgrep nginx → 2944 2945  
+pgrep sshd → 850 2563 2583 
+
 ![Process nginx](Screenshot-1.png)
 
 ---
