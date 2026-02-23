@@ -43,7 +43,7 @@ Observation:
 - nginx and java visible
 - systemd PID 1 running
 
-![top output](images/Screenshot-2.png)
+![top output](Screenshot-2.png)
 
 ---
 
@@ -58,7 +58,7 @@ Observation:
 - main PID: 2944
 - service started successfully
 
-![nginx status](images/Screenshot-3.png)
+![nginx status](Screenshot-3.png)
 
 ---
 
@@ -82,7 +82,7 @@ Observation:
 - nginx config test successful
 - service started by systemd
 
-![nginx logs](images/Screenshot-4.png)
+![nginx logs](Screenshot-4.png)
 
 ---
 
@@ -95,7 +95,7 @@ Observation:
 - root login from 192.168.56.1
 - session open/close events recorded
 
-![ssh logs](images/Screenshot-5.png)
+![ssh logs](Screenshot-5.png)
 
 ---
 
