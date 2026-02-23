@@ -83,7 +83,7 @@ Observation:
 
 # Log Checks
 
-## 5. Check nginx logs
+## 5. Check nginx logs and SSH logs
 Command:
 journalctl -u nginx
 
@@ -91,11 +91,6 @@ Observation:
 - nginx config test successful
 - service started by systemd
 
-![nginx logs](Screenshot-4.png)
-
----
-
-## 7. Check SSH logs
 Command:
 tail -n 50 /var/log/secure
 
@@ -103,23 +98,28 @@ Observation:
 - ssh login attempts visible
 - root login from 192.168.56.1
 - session open/close events recorded
-
-![ssh logs](Screenshot-5.png)
+  
+![nginx logs](Screenshot-4.png)
 
 ---
+
 
 # Mini Troubleshooting Flow (nginx)
 
 1. Check service  
    systemctl status nginx  
+   systemctl status sshd
+   systemctl status crond
 
-2. Check process  
+![services status](Screenshot-5.png)
+   
+3. Check process  
    ps -ef | grep nginx  
 
-3. Check logs  
+4. Check logs  
    journalctl -u nginx  
 
-4. Verify port  
+5. Verify port  
    ss -tulnp | grep 80  
 
 Result:
