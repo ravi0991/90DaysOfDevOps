@@ -115,13 +115,13 @@ Observation:
 
 ![services status](Screenshot-5.png)
    
-3. Check process  
+2. Check process  
    ps -ef | grep nginx  
 
-4. Check logs  
+3. Check logs  
    journalctl -u nginx  
 
-5. Verify port  
+4. Verify port  
    ss -tulnp | grep 80  
 
 Result:
