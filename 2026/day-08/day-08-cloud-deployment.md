@@ -62,7 +62,13 @@ Needed correct log path for Ubuntu
 # What I Learned
 
 How to launch and connect to a cloud Linux server via SSH
+
 Installing and verifying Nginx web server on Ubuntu
+
 Understanding Nginx access and error logs location
+
 Extracting server logs into a file for analysis
+
+Adding incoming rule for port 80 in security groups
+
 Verifying web deployment via public IP access
