@@ -15,10 +15,9 @@
 
 ### Verification
 
-```bash
 cat /etc/passwd | tail -n 5
 
-Observed:
+**Observed:**
 
 tokyo, berlin, professor users created with /home directories
 
@@ -27,7 +26,7 @@ login shell: /bin/bash
 ls -l /home
 
 
-Observed:
+**Observed:**
 
 /home/tokyo
 
@@ -35,10 +34,11 @@ Observed:
 
 /home/professor
 
+---------------------------------------------------------------------------
 
-# Group Assignments
+## Group Assignments
 
-Assignments done:
+**Assignments done:**
 
 tokyo → developers
 
@@ -50,13 +50,13 @@ nairobi → project-team
 
 tokyo → project-team
 
-Verification:
+**Verification:**
 
 groups tokyo
 groups berlin
 groups nairobi
 
-Observed:
+**Observed:**
 
 tokyo: tokyo developers project-team
 
@@ -64,27 +64,28 @@ berlin: berlin developers admins
 
 nairobi: nairobi project-team
 
+------------------------------------------------------------------------
 
-# Directories Created
+## Directories Created
 
-Dev Project Directory
+### Dev Project Directory
 
-Created:
+**Created:**
 
 mkdir -p /opt/dev-project
 chgrp developers /opt/dev-project
 chmod 775 /opt/dev-project
 
-Verification:
+**Verification:**
 
 ls -ld /opt/dev-project
 
-Observed:
+**Observed:**
 
 drwxrwxr-x root developers /opt/dev-project
 
 
-# Testing Access
+**Testing Access**
 
 su tokyo
 
@@ -104,16 +105,17 @@ touch /opt/dev-project/file4
 exit
 
 
-Result:
+**Result:**
 
 Both users successfully created files
 
 Group access working
 
+------------------------------------------------------------------------
 
-# Team Workspace Directory
+## Team Workspace Directory
 
-Created:
+**Created:**
 
 mkdir -p /opt/team-workspace
 
@@ -122,16 +124,17 @@ chgrp -R project-team /opt/team-workspace
 chmod 775 /opt/team-workspace
 
 
-Verification:
+**Verification:**
 
 ls -ld /opt/team-workspace
 
 
-Observed:
+**Observed:**
 
 drwxrwxr-x root project-team /opt/team-workspace
 
-# Testing Access
+
+**Testing Access**
 
 su nairobi
 
@@ -142,12 +145,13 @@ touch new-file.txt
 exit
 
 
-Result:
+**Result:**
 
 nairobi successfully created file
 
+------------------------------------------------------------------------
 
-# Shared workspace working
+## Shared workspace working
 
 **Commands Used**
 
@@ -185,7 +189,6 @@ groups username
 ls -ld directory
 su username
 touch file
-
 
 **What I Learned**
 
