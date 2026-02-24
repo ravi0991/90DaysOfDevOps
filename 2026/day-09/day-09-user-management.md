@@ -156,38 +156,57 @@ nairobi successfully created file
 **Commands Used**
 
 useradd -m tokyo
+
 useradd -m berlin
+
 useradd -m professor
+
 useradd -m nairobi
 
 passwd tokyo
+
 passwd berlin
+
 passwd professor
+
 passwd nairobi
 
 groupadd developers
+
 groupadd admins
+
 groupadd project-team
 
 usermod -aG developers tokyo
+
 usermod -aG developers berlin
+
 usermod -aG admins berlin
+
 usermod -aG admins professor
+
 usermod -aG project-team tokyo
+
 usermod -aG project-team nairobi
 
 mkdir -p /opt/dev-project
+
 mkdir -p /opt/team-workspace
 
 chgrp developers /opt/dev-project
+
 chgrp project-team /opt/team-workspace
 
 chmod 775 /opt/dev-project
+
 chmod 775 /opt/team-workspace
 
 groups username
+
 ls -ld directory
+
 su username
+
 touch file
 
 **What I Learned**
