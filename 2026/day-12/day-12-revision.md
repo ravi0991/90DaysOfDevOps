@@ -147,5 +147,5 @@ Reason:
 ---
 
 #  Revision Complete
-Days 01–11 fundamentals reviewed and reinforced.
+Days 01–11 fundamentals reviewed and practiced.
 Ready to continue next phase 
