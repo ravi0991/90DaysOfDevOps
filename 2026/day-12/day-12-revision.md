@@ -90,6 +90,8 @@ Verification:
 - id shows user & groups
 - ls -l shows ownership change
 
+![rerun-commands](Screenshot-1.png)
+
 ---
 
 #  Mini Self-Check Answers
