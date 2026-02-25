@@ -82,4 +82,4 @@ df -h /mnt/app-data
 - VG → `devops-vg`
 - LV → `app-data`
 - Mounted → `/mnt/app-data`
-- Size increased from **500M → 700M**
+- Size increased from **474M → 668M**
