@@ -59,11 +59,12 @@ df -h /mnt/app-data
 
 ## Screenshots
 
-```md
 ![Initial storage check](Screenshot-1.png)
+
 ![PV VG LV creation](Screenshot-2.png)
+
 ![Mount and extend](Screenshot-3.png)
-```
+
 
 ---
 
