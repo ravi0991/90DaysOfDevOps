@@ -126,7 +126,8 @@ backup
 echo "MAINTENANCE END: $(date)"
 } >> "$LOG_FILE" 2>&1
 ```
-![Maintenance Output](task-4.png)
+![Maintenance Output](task-4a.png)
+![Maintenance Output](task-4b.png)
 
 ---
 
