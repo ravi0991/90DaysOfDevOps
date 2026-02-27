@@ -1,4 +1,4 @@
-# Day 21 – Shell Scripting Cheat Sheet (My Personal Reference)
+# Day 21 – Shell Scripting Cheat Sheet 
 
 ## Quick Reference Table
 
