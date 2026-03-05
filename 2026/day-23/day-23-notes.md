@@ -147,15 +147,15 @@ git merge upstream/main
 
 # Screenshots
 
-## GitHub push and pull operations
+## Git Branch creation and commit history
 
 ![Git Remote and Push](Screenshot-1.png)
 
-## Branch push and pull with GitHub
+## Git Remote
 
 ![Git Feature Branch Push](Screenshot-2.png)
 
-## Git Branch creation and commit history
+## GitHub push and pull operations
 
 ![Git Branch Commands](Screenshot-3.png)
 
