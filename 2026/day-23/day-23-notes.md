@@ -168,9 +168,3 @@ git merge upstream/main
 3. Commands like `git switch`, `git push`, and `git pull` are essential for daily Git workflows.
 
 ---
-
-# Repository Path
-
-```
-2026/day-23/day-23-notes.md
-```
