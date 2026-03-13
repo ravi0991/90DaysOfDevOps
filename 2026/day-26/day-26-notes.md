@@ -250,9 +250,6 @@ View gist:
 gh gist view <id>
 ```
 
-### Screenshot
-![gh gist](task-6b.png)
-
 ---
 
 ## GitHub Release
@@ -268,9 +265,8 @@ List releases:
 ```bash
 gh release list
 ```
-
 ### Screenshot
-![gh release](task-6c.png)
+![gh gist](task-6b.png)
 
 ---
 
@@ -301,6 +297,8 @@ gh alias delete prl
 ```bash
 gh search repos devops-notes
 ```
+### Screenshot
+![gh release](task-6c.png)
 
 ---
 
