@@ -192,6 +192,8 @@ Verified that the following sensitive files are not present:
 
 ## After Improvement
 
+![After Profile](Screenshot-2.png)
+![After Profile](Screenshot-3.png)
 ![After Profile](Screenshot-4.png)
 
 ------------------------------------------------------------------------
