@@ -1,24 +1,5 @@
 # Day 27 -- GitHub Profile Makeover: Build Your Developer Identity
 
-## Task
-
-Your GitHub profile is your developer resume. Recruiters and hiring
-managers often review GitHub before LinkedIn.
-
-Today I improved my GitHub profile by organizing repositories, creating
-a profile README, and presenting my work in a structured way.
-
-------------------------------------------------------------------------
-
-# Expected Output
-
--   A polished GitHub profile with a profile README\
--   Well organized repositories with proper names, descriptions, and
-    READMEs\
--   Documentation of improvements made to the profile
-
-------------------------------------------------------------------------
-
 # Task 1: Audit My GitHub Profile (Before Improvements)
 
 Before making any changes, I reviewed my GitHub profile from a
