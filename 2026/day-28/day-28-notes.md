@@ -10,45 +10,23 @@ far.
 
 ------------------------------------------------------------------------
 
-# What I Have Covered So Far
+## What I Have Covered So Far
 
-  -----------------------------------------------------------------------
-  Days           Topic             Key Concepts
-  -------------- ----------------- --------------------------------------
-  1              DevOps & Cloud    DevOps basics, SDLC, Cloud
-                 Intro             fundamentals
-
-  2--7           Linux             Commands, processes, systemd,
-                 Fundamentals      filesystem hierarchy
-
-  8              Cloud Server      Docker, Nginx, web deployment
-                 Setup             
-
-  9--11          Users &           User/group management, file
-                 Permissions       permissions
-
-  12             Revision Day      Recap of Days 1--11
-
-  13             Volume Management LVM concepts and commands
-
-  14--15         Networking        DNS, IP, ports, troubleshooting
-
-  16--18         Shell Scripting   Variables, loops, conditions,
-                                   functions
-
-  19--20         Shell Projects    Backup scripts, log rotation,
-                                   automation
-
-  21             Shell Cheat Sheet Command reference guide
-
-  22--25         Git & GitHub      Branching, merging, rebasing, reset,
-                                   revert
-
-  26             GitHub CLI        Managing GitHub from terminal
-
-  27             GitHub Profile    Developer branding and repo
-                                   organization
-  -----------------------------------------------------------------------
+| Days | Topic | Key Concepts |
+|-----|------|-------------|
+| 1 | DevOps & Cloud Intro | What is DevOps, SDLC, Cloud basics |
+| 2–7 | Linux Fundamentals | Architecture, commands, processes, systemd, filesystem hierarchy |
+| 8 | Cloud Server Setup | Docker, Nginx, web deployment |
+| 9–11 | Users, Permissions & Ownership | User/group management, file permissions, chown/chgrp |
+| 12 | Revision Day 1 | Days 1–11 recap |
+| 13 | Volume Management | LVM – physical volumes, volume groups, logical volumes |
+| 14–15 | Networking | DNS, IP, subnets, ports, troubleshooting |
+| 16–18 | Shell Scripting | Variables, loops, arguments, functions |
+| 19–20 | Shell Scripting Projects | Backup scripts, log rotation, automation |
+| 21 | Shell Scripting Cheat Sheet | Personal command reference guide |
+| 22–25 | Git & GitHub | Init, branching, merge, rebase, stash, cherry-pick, reset, revert |
+| 26 | GitHub CLI | Managing GitHub from the terminal |
+| 27 | GitHub Profile | Profile README, repo organization, developer branding |
 
 ------------------------------------------------------------------------
 
