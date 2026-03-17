@@ -7,8 +7,8 @@ Today I started learning Docker — the foundation of modern DevOps.
 
 ## Task 1: What is Docker?
 
-### What is a Container?
-A container is a lightweight, portable unit that packages an application with its dependencies.
+### What is a Container? Why do we need them?
+A container is a lightweight, portable unit that packages an application with its dependencies. We need containers because Containers package an application with its dependencies to ensure consistent, fast, and portable deployment across environments while using fewer resources than virtual machines
 
 ### Containers vs Virtual Machines
 - Containers share OS kernel (lightweight)
