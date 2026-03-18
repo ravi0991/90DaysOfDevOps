@@ -113,10 +113,10 @@ docker system df
 ### Run & Logs
 ![Run](task-4a.png)
 
-### Logs Follow
+### Exec Inside Container
 ![Logs](task-4b.png)
 
-### Exec Inside Container
+### Inspect Container
 ![Exec1](task-4c1.png)
 
 ![Exec2](task-4c2.png)
