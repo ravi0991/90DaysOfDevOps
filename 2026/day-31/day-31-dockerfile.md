@@ -7,7 +7,7 @@ This is the skill that separates someone who uses Docker from someone who actual
 
 ---
 
-##  Task 1: Your First Dockerfile
+##  Task 1: My First Dockerfile
 
 ### Dockerfile
 ```Dockerfile
@@ -24,7 +24,7 @@ docker build -t my-ubuntu:v1 .
 docker run my-ubuntu:v1
 ```
 
-### ✅ Output
+###  Output
 Hello from my custom image!
 
 ###  Screenshot
@@ -66,14 +66,12 @@ CMD ["echo", "hello"]
 ENTRYPOINT ["echo"]
 ```
 
-## When would you use CMD vs ENTRYPOINT?
-
-# Use CMD when:
+### Use CMD when:
 - You want a default command that can be easily overridden
 - Useful for flexible containers (e.g., debugging, testing)
 - Example: running different commands in same image
 
-# Use ENTRYPOINT when:
+### Use ENTRYPOINT when:
 - You want the container to behave like a fixed executable
 - The command should always run
 - Additional arguments are passed to it
@@ -127,8 +125,7 @@ node_modules
 - Only changed layers are rebuilt
 - Order matters for performance
 
-# Why does layer order matter for build speed?
-
+### Why does layer order matter for build speed?
 - Docker builds images layer by layer
 - Each layer is cached
 - If a layer changes → all layers below it are rebuilt
@@ -148,9 +145,3 @@ node_modules
 
 ---
 
-## 📤 Submission
-
-Added file to:
-2026/day-31/day-31-dockerfile.md
-
-Committed and pushed to GitHub
