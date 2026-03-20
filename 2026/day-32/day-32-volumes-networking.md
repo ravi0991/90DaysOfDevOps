@@ -85,6 +85,9 @@ Containers are ephemeral — data is deleted when container is removed.
 ###  Screenshot
 ![Task5](task-5.png)
 
+- Custom networks support DNS-based name resolution, so containers can talk using names.
+- Default bridge does not support name resolution, only works with IP.
+  
 ---
 
 ##  Task 6: Put It Together
