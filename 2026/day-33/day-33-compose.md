@@ -174,16 +174,3 @@ docker compose up --build
 
 ---
 
-## Submission
-
-Path:
-```
-2026/day-33/day-33-compose.md
-```
-
-Included:
-- docker-compose.yml files
-- Screenshots of all tasks
-- Commands and observations
-
-Committed and pushed to GitHub 🚀
