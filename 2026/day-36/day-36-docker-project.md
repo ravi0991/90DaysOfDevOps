@@ -173,9 +173,3 @@ docker compose up -d
 
 ---
 
-## Submission
-
-Path:
-```
-2026/day-36/day-36-docker-project.md
-```
