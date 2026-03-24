@@ -11,7 +11,7 @@ Revise everything from Day 29–36 and strengthen weak areas.
 - Manage containers/images → ✅ Can Do
 - Image layers & caching → ⚠️ Shaky
 - Write Dockerfile → ✅ Can Do
-- CMD vs ENTRYPOINT → ⚠️ Shaky
+- CMD vs ENTRYPOINT → ✅ Can Do
 - Build & tag image → ✅ Can Do
 - Volumes (named + bind) → ✅ Can Do
 - Networking → ✅ Can Do
