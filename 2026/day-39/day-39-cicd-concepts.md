@@ -75,17 +75,13 @@ Example: Push → test → auto deploy to production
 
 ```
 Developer Push (GitHub)
-        |
-        v
+        ↓
    Build Stage
-        |
-        v
+        ↓
    Test Stage
-        |
-        v
+        ↓
    Docker Build
-        |
-        v
+        ↓
    Deploy to Staging
 ```
 ---
