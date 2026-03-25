@@ -74,7 +74,7 @@ Example: Push → test → auto deploy to production
 ##  Task 4: Pipeline Diagram
 
 ```
-Developer Push (GitHub)
+   Developer Push (GitHub)
         ↓
    Build Stage
         ↓
