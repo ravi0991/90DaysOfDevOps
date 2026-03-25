@@ -74,18 +74,18 @@ Example: Push → test → auto deploy to production
 ##  Task 4: Pipeline Diagram
 
 Developer Push (GitHub)
-        ↓
-        
-   Build Stage
-        ↓
-        
-   Test Stage
-        ↓
-        
-   Docker Build
-        ↓
-        
-   Deploy to Staging
+|
+v
+Build Stage
+|
+v
+Test Stage
+|
+v
+Docker Build
+|
+v
+Deploy to Staging
 
 ---
 
